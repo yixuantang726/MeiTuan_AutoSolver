@@ -1,0 +1,8 @@
+model_config.yaml
+.env
+*.env
+.venv_mac/
+autogen/python/.venv/
+__pycache__/
+*.pyc
+.DS_Store

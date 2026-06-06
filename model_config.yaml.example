@@ -1,0 +1,15 @@
+# model_config.yaml.example
+# 复制此文件为 model_config.yaml，填入你的 API Key
+# Copy this file to model_config.yaml and fill in your API Key
+
+provider: autogen_ext.models.openai.OpenAIChatCompletionClient
+config:
+  model: deepseek-v4-flash
+  api_key: YOUR_DEEPSEEK_API_KEY_HERE
+  base_url: https://api.deepseek.com/v1
+  model_info:
+    vision: false
+    function_calling: true
+    json_output: true
+    structured_output: true
+    family: gpt-4o
